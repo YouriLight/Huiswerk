@@ -1,0 +1,186 @@
+body {
+    background-color:gray;
+    color:black;
+    }
+
+/* Koppen */
+h1 {
+    background-color:gold;
+    color: black
+}
+h2,h3,h4 {
+    background-color:black;
+    color:white;
+    width:fit-content;
+}
+h5,h6 {
+    color:orangered
+}
+
+p {
+    color:gold
+}
+
+/* header/footer */
+header {
+    background-color: yellow;
+}
+footer {
+    background-color: black;
+}
+
+/* Inhoud */
+hr { background-color: orangered;
+    height: 5px;
+    border-style: none;
+   
+}
+img {
+    Width: 150px;
+    Height: 150px;
+}
+
+table { 
+    width: fit-content;
+    border-width: 5px;
+    text-align: center;
+    border-style:none;
+}
+
+#een1 {
+
+    background-color: saddlebrown;
+    width: 200px;
+    height: 200px;
+}
+
+#een2 {
+    background-color: sienna;
+    width: 200px;
+    height: 200px;
+
+}
+
+#een3 {
+    background-color: darkgoldenrod;
+    width: 200px;
+    height: 200px;
+
+}
+
+#een4 {
+    background-color: peru;
+    width: 200px;
+    height: 200px;
+
+}
+
+#twee1 {
+    background-color:yellowgreen;
+    width: 200px;
+    height: 200px;
+
+}
+
+#twee2 {
+    background-color: limegreen;
+    width: 200px;
+    height: 200px;
+
+}
+
+#twee3 {
+    background-color: mediumseagreen;
+    width: 200px;
+    height: 200px;
+
+}
+
+#twee4 {
+    background-color: forestgreen;
+    width: 200px;
+    height: 200px;
+
+}
+
+#drie1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+
+}
+
+#drie2 {
+    background-color: dodgerblue;
+    width: 200px;
+    height: 200px;
+
+}
+
+#drie3 {
+    background-color: lightskyblue;
+    width: 200px;
+    height: 200px;
+
+}
+
+#drie4 {
+    background-color: powderblue;
+    width: 200px;
+    height: 200px;
+
+}
+
+#vier1 {
+    background-color: plum;
+    width: 200px;
+    height: 200px;
+
+}
+
+#vier2 {
+    background-color: orchid;
+    width: 200px;
+    height: 200px;
+
+}
+
+#vier3 {
+    background-color: darkorchid;
+    width: 200px;
+    height: 200px;
+
+}
+
+#vier4 {
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+
+}
+
+a:link {
+    color: red
+}
+a:visited {
+     color: orangered
+    }
+a:active {
+    color: green
+    }
+    
+.plaatjes {
+    background-color: rgb(255, 247, 0);
+    width: 100px;
+    height: 100px;
+}
+
+#bredetekst {
+    background-color: rgb(255, 0, 140);
+    width: 100px;
+    height: 100px;
+}
+
+P:hover {
+    font-weight: bold;
+}
