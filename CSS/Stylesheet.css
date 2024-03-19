@@ -17,7 +17,7 @@ padding:none;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 .header {
-background-image: url("IMAGES/Volendam.jpg");
+background-image: url("../IMAGES/Volendam.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 position:sticky;
