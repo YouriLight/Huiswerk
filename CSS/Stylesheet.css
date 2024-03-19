@@ -1,5 +1,5 @@
 [class*="col-"] {width: 100%;}
-body{background-color:orange;}@media only screen and (min-width: 768px) {body{background-color:black;}}
+body{background-color:orange;}@media only screen and (min-width: 768px) {body{background-color:WHITE;}}
 [class*="col-"]{
 float: left;
 top:0;
