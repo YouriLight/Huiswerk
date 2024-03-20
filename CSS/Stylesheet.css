@@ -45,7 +45,7 @@ li a{
   color:white;
   text-decoration: none;
 }
-.menu ul {
+ul {
 list-style-type: none;
 Margin: 0;
 padding: 0;
