@@ -50,7 +50,7 @@ list-style-type: none;
 Margin: 0;
 padding: 0;
 width:100%;
-
+position: fixed;
 height:100%;
 overflow:auto;
 }
