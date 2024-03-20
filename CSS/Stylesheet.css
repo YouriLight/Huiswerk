@@ -49,7 +49,7 @@ li a{
 list-style-type: none;
 Margin: 0;
 padding: 0;
-width:col-2;
+width:auto;
 position: fixed;
 height:100%;
 overflow:auto;
