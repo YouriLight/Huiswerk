@@ -83,7 +83,7 @@ body {
   top:0;
   left:0;
   width:100%;
-  color: black;
+  color: white;
   padding: 100px;
 }
 
@@ -101,6 +101,7 @@ overflow:auto;
   display: block;
   margin: 0;
   padding: 20px;
+  background:black;
   color: white;
   text-decoration: none;
 }
@@ -114,14 +115,12 @@ overflow:auto;
   min-height: 400px;
   background-color: red;
   color:white;
-  clear: fixed;
 }
 
 #Visserij {
   min-height: 400px;
   background-color: white;
   color: black;
-  clear:fixed;
 }
 
 #Muziek {
