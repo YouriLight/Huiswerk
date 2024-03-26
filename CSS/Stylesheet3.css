@@ -1,3 +1,19 @@
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: orange;
+  color: black;
+  text-align: start;
+  font-size: 15px;
+}
+
 [class*="col-"] {
   float: left;
   padding: 0;
@@ -32,7 +48,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     body {
-    background-color:black;
+    background-color:aqua;
   }
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -49,38 +65,23 @@ body {
   .col-12 {width: 100%;}
 }
 
-html {
-  font-family: "Lucida Sans", sans-serif;
-}
-
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: orange;
-  color: black;
-  text-align: start;
-  font-size: 15px;
-}
-
 .header {
   background-image: url(../IMAGES/Volendam.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  position: sticky;
-  top: 0;
-  left: 0;
-  width: 100%;
+  position:sticky;
+  top:0;
+  left:0;
+  width:100%;
   color: white;
   padding: 100px;
 }
 
 .menu ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+list-style-type:none;
+margin: 0;
+padding: 0;
+height: 100%;
 }
 
 .menu li a {
@@ -96,24 +97,49 @@ footer {
   color: black;
 }
 
-#een {
-  min-height: 500px;
-  float: left;
-  background-color: orange;
-  color: black;
-  text-align: center;
+#main {
+  float:left;
+  margin:0;
+  padding:0;
+  height:auto;
 }
 
-#twee {
-  min-height: 500px;
-  float: left;
-  background-color: orange;
-  color: black;
+#Klederdracht {
+  min-height: 100px;
+  background-color: red;
   text-align: center;
-  clear:fixed;
+  color:white;
 }
 
-h1 h2 {
+#Visserij {
+  min-height: 100px;
+  background-color: white;
+  text-align: center;
+  color: black;
+}
+
+#Muziek {
+  min-height: 100px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+#Voetbal {
+  min-height: 100px;
+  background-color: orange;
+  text-align: center;
+  color:black;
+}
+
+#Bouw {
+  min-height:max-content;
+  background-color: black;
+  text-align: center;
+  color:white;
+}
+
+h1 h2 h3 h4 h5 h6 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -127,7 +153,7 @@ p {
 
 img {
   float: right;
-  max-width: 25%;
-  height: auto;
+  max-width:25%;
+  height:auto;
   margin-right: 30px;
 }
