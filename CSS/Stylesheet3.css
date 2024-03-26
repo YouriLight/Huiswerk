@@ -8,7 +8,7 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: orange;
+  background-color: white;
   color: black;
   text-align: start;
   font-size: 15px;
@@ -24,12 +24,12 @@ footer {
   width: 100%;
 }
 body {
-    background-color: orange;
+    background-color: darkolivegreen;
   }
 
 @media only screen and (min-width: 600px) {
     body {
-    background-color: grey;
+    background-color: orangered;
   }
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -48,7 +48,7 @@ body {
 
 @media only screen and (min-width: 768px) {
     body {
-    background-color:aqua;
+    background-color:grey;
   }
   /* For desktop: */
   .col-1 {width: 8.33%;}
@@ -78,14 +78,17 @@ body {
 }
 
 .menu ul {
-list-style-type:none;
-margin: 0;
+list-style-type:decimal;
+text-align: center;
+margin: 20%;
 padding: 0;
 height: 100%;
+color:white;
 }
 
 .menu li a {
-  display: block;
+  display:flex;
+  text-align: center;
   padding: 20px;
   margin: 0;
   color: white;
@@ -93,7 +96,7 @@ height: 100%;
 }
   
 .menu li a:hover {
-  background-color: orange;
+  background-color: olive;
   color: black;
 }
 
@@ -106,23 +109,23 @@ height: 100%;
 
 #Klederdracht {
   min-height: 100px;
-  background-color: red;
+  background-color: orange;
   text-align: center;
-  color:white;
+  color:black;
 }
 
 #Visserij {
   min-height: 100px;
-  background-color: white;
+  background-color: orange;
   text-align: center;
-  color: black;
+  color:black;
 }
 
 #Muziek {
   min-height: 100px;
-  background-color: blue;
+  background-color: orange;
   text-align: center;
-  color: white;
+  color:black;
 }
 
 #Voetbal {
@@ -134,9 +137,9 @@ height: 100%;
 
 #Bouw {
   min-height:max-content;
-  background-color: black;
+  background-color: orange;
   text-align: center;
-  color:white;
+  color:black;
 }
 
 h1 h2 h3 h4 h5 h6 {
